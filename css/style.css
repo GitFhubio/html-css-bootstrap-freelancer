@@ -21,25 +21,6 @@ margin:20px auto;
 }
 
 
-/* [class*="col-"]{
-  border: 1px solid #000;
-  background-color: pink;
-  text-align: center;
-}
-
-[class*="col-"] .container [class*="col-"] {
-height:260px;
-background-color:lightcoral;
-position:relative;
-line-height: normal;
-}
-
-.nested{
-  position:absolute;
-  top:50%;
-  left:50%;
-  transform:translate(-50%,-50%);
-} */
 
 @media screen and (max-width: 991px) {
     //something
@@ -51,12 +32,14 @@ line-height: normal;
 .nav{
 
   height:80px;
-  background-color: red;
+  background-color: #293D51;
 }
 
 .jambotron{
   background-color: #19b391;
   text-align: center;
+    color:#fff;
+    text-transform: uppercase;
 }
 
 
@@ -64,6 +47,7 @@ line-height: normal;
 .about{
   background-color: #19b391;
   text-align: center;
+  color:#fff;
 }
 .testo{
   padding:10px 10px;
