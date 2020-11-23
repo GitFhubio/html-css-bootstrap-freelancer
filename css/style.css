@@ -22,12 +22,6 @@ a{text-decoration:none;}
     text-transform: uppercase;
 }
 
-
-/* .about .col,
-.contact-me .col{
-  padding:0 50px;
-} */
-
 .contact-me{
   padding:20px 50px;
 }
@@ -68,7 +62,7 @@ a{text-decoration:none;}
 }
 
 .footer-up .row, .footer-down .row{
-margin:10px 0;
+margin:20px 0;
 }
 
 .footer-up .iconasocial{
@@ -123,11 +117,16 @@ border-radius:0px;}
 .bottone .btn{
   background-color: transparent;
   color:#fff;
+  margin-top: 10px;
   margin-bottom: 10px;
 }
 
 .portfolio h2,.about h2, .contact-me h2, .footer-up h4
 {text-transform:uppercase;}
+
+.start-bootstrap{
+  color:#00b697;
+}
 
 @media (min-width: 768px) {
 .about .col-sm-6{
@@ -142,6 +141,9 @@ border-radius:0px;}
 
  @media (min-width: 992px) {
 
+   .jambotron h3{
+     font-size: 22px;
+   }
 
 
   }
