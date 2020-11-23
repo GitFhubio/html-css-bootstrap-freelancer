@@ -27,12 +27,6 @@ a{text-decoration:none;}
   padding:0 50px;
 }
 
-@media (min-width: 768px) {
-.about .col-sm-6{
-  padding:0 10px;
-}
-
- }
 
 
 .about{
@@ -125,3 +119,16 @@ border-radius:0px;}
 
 .portfolio h2,.about h2, .contact-me h2, .footer-up h4
 {text-transform:uppercase;}
+
+@media (min-width: 768px) {
+.about .col-sm-6{
+  padding:0 10px;
+}
+
+ }
+
+ @media (min-width: 992px) {
+
+
+
+  }
