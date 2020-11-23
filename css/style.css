@@ -107,3 +107,7 @@ margin:20px auto;
 .contact-me .star::before,.contact-me .star::after{
   background-color:#000;}
 .contact-me .row:nth-child(2){text-align: center;}
+
+@media screen and (min-width:1 {
+
+}
