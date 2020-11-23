@@ -23,17 +23,17 @@ a{text-decoration:none;}
 }
 
 
-.about .col,
+/* .about .col,
 .contact-me .col{
   padding:0 50px;
-}
+} */
 
 .contact-me{
-  padding:20px 0;
+  padding:20px 50px;
 }
 
 .about{
-  padding:20px 0;
+  padding:20px 50px;
   background-color: #19b391;
   text-align: center;
   color:#fff;
