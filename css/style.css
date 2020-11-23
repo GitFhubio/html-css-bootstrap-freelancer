@@ -114,6 +114,9 @@ padding-top: 20px;}
   background-color:#000;}
 .contact-me .row:nth-child(2){text-align: center;}
 
+.form-control{
+  height:27px;
+}
 #my-form textarea,#my-form input{border-top:0;
 border-left:none;
 border-right:none;
@@ -138,6 +141,12 @@ border-radius:0px;}
 
 .start-bootstrap{
   color:#00b697;
+}
+label {
+  margin-bottom:0px;
+  margin-top:20px;
+  font-size:16px;
+  font-weight: 400;
 }
 
 @media (min-width: 768px) {
