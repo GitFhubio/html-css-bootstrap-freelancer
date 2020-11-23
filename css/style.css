@@ -43,11 +43,12 @@ margin:20px auto;
 }
 
 
-.portfolio{text-align:center;}
+
 .about{
   background-color: #19b391;
   text-align: center;
   color:#fff;
+  padding:0px 50px
 }
 .testo{
   padding:10px 10px;
@@ -63,7 +64,7 @@ margin:20px auto;
   padding:10px 0;
 }
 
-.contactme h2{
+.contact-me h2{
   text-align: center;
 }
 
@@ -76,4 +77,33 @@ margin:20px auto;
 .footer-up,.footer-down {
   color:#fff;
   text-align: center;
+  padding:0px 50px;
 }
+.footer-up i {
+  padding:0px 20px;
+}
+
+/* seziona star generica */
+.md-star{
+  min-width:100%;
+  max-width:400px;
+  margin:30px auto;
+  font-size: 25px;
+}
+
+.star::before,.star::after{
+  content:"";
+  display:inline-block;
+  width:15%;
+  height:4px;
+  background-color:#fff;
+  border-radius:2px;
+  line-height: 4px;
+  vertical-align:middle;
+  }
+/* fine sezione star */
+.portfolio{text-align:center;}
+.portfolio .star::before,.portfolio .star::after,
+.contact-me .star::before,.contact-me .star::after{
+  background-color:#000;}
+.contact-me .row:nth-child(2){text-align: center;}
