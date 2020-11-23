@@ -10,24 +10,6 @@ a{text-decoration:none;}
 
 
 
-
-.line::after{
-content:"";
-display:inherit;
-width:%;
-border-bottom:1px solid #000;
-margin:20px auto;
-}
-
-
-
-@media screen and (max-width: 991px) {
-    //something
-}
-@media screen and (max-width: 767px) {
-    //something
-}
-
 .nav{
 
   height:80px;
@@ -47,7 +29,7 @@ margin:20px auto;
   background-color: #19b391;
   text-align: center;
   color:#fff;
-  padding:0px 50px
+  padding:0px 50px;
 }
 .testo{
   padding:10px 10px;
@@ -65,6 +47,9 @@ margin:20px auto;
 
 .contact-me h2{
   text-align: center;
+}
+.contact-me{
+  padding:0 50px;
 }
 
 .footer-up{
