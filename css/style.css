@@ -22,10 +22,17 @@ a{text-decoration:none;}
 }
 
 
-.about .col-xs-12,
-.contact-me .col-xs-12{
+.about .col,
+.contact-me .col{
   padding:0 50px;
 }
+
+@media (min-width: 768px) {
+.about .col-sm-6{
+  padding:0 10px;
+}
+
+ }
 
 
 .about{
