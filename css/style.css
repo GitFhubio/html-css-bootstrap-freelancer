@@ -15,6 +15,7 @@ a{text-decoration:none;}
 }
 
 .jambotron{
+  padding: 20px 0;
   background-color: #19b391;
   text-align: center;
     color:#fff;
@@ -27,9 +28,12 @@ a{text-decoration:none;}
   padding:0 50px;
 }
 
-
+.contact-me{
+  padding:20px 0;
+}
 
 .about{
+  padding:20px 0;
   background-color: #19b391;
   text-align: center;
   color:#fff;
@@ -63,6 +67,10 @@ a{text-decoration:none;}
   text-align: center;
 }
 
+.footer-up .row, .footer-down .row{
+margin:10px 0;
+}
+
 .footer-up .iconasocial{
   display:inline-block;
   background-color: transparent;
@@ -78,7 +86,7 @@ a{text-decoration:none;}
 .md-star{
   min-width:100%;
   max-width:400px;
-  margin:30px auto;
+  margin:10px auto;
   font-size: 25px;
 }
 
@@ -93,7 +101,8 @@ a{text-decoration:none;}
   vertical-align:middle;
   }
 /* fine sezione star */
-.portfolio{text-align:center;}
+.portfolio{text-align:center;
+padding-top: 20px;}
 .portfolio .star::before,.portfolio .star::after,
 .contact-me .star::before,.contact-me .star::after{
   background-color:#000;}
@@ -125,7 +134,11 @@ border-radius:0px;}
   padding:0 10px;
 }
 
- }
+.jambotron h3{
+  font-size: 17px;
+}
+
+}
 
  @media (min-width: 992px) {
 
