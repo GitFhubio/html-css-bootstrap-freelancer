@@ -82,3 +82,14 @@ line-height: normal;
 .contactme h2{
   text-align: center;
 }
+
+.footer-up{
+  background-color: #33566E;
+}
+.footer-down{
+  background-color: #293d51;
+}
+.footer-up,.footer-down {
+  color:#fff;
+  text-align: center;
+}
