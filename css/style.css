@@ -6,8 +6,7 @@
 
 ul{list-style: none;}
 
-a{text-decoration:none;
-  color:#fff;}
+a{text-decoration:none;}
 
 
 
@@ -113,3 +112,15 @@ border-left:none;
 border-right:none;
 box-shadow:none;
 border-radius:0px;}
+
+#my-form button { background-color: #00c59E;
+  margin-top: 10px;
+  color:#fff;
+  border-color: #00c59E;
+}
+
+.bottone .btn{
+  background-color: transparent;
+  color:#fff;
+  margin-bottom: 10px;
+}
