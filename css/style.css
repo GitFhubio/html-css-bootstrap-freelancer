@@ -124,3 +124,6 @@ border-radius:0px;}
   color:#fff;
   margin-bottom: 10px;
 }
+
+.portfolio h2,.about h2, .contact-me h2, .footer-up h4
+{text-transform:uppercase;}
