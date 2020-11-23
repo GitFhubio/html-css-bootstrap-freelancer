@@ -82,6 +82,11 @@ margin:20px auto;
   padding:0px 20px;
 }
 
+.footer-up .iconasocial{
+  background-color: transparent;
+  border-radius: 50%;
+  border:1px solid #fff;
+}
 /* seziona star generica */
 .md-star{
   min-width:100%;
