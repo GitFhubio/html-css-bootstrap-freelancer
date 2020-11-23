@@ -8,8 +8,6 @@ ul{list-style: none;}
 
 a{text-decoration:none;}
 
-
-
 .nav{
 
   height:80px;
@@ -24,18 +22,19 @@ a{text-decoration:none;}
 }
 
 
+.about .col-xs-12,
+.contact-me .col-xs-12{
+  padding:0 50px;
+}
+
 
 .about{
   background-color: #19b391;
   text-align: center;
   color:#fff;
-  padding:0px 50px;
 }
 .about p{
   text-align: left;
-}
-.testo{
-  padding:10px 10px;
 }
 
 .jambotron img{
@@ -51,9 +50,6 @@ a{text-decoration:none;}
 .contact-me h2{
   text-align: center;
 }
-.contact-me{
-  padding:0 50px;
-}
 
 .footer-up{
   background-color: #33566E;
@@ -64,7 +60,6 @@ a{text-decoration:none;}
 .footer-up,.footer-down {
   color:#fff;
   text-align: center;
-  padding:0px 50px;
 }
 
 .footer-up .iconasocial{
