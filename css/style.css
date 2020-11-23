@@ -78,14 +78,17 @@ margin:20px auto;
   text-align: center;
   padding:0px 50px;
 }
-.footer-up i {
-  padding:0px 20px;
-}
 
 .footer-up .iconasocial{
+  display:inline-block;
   background-color: transparent;
   border-radius: 50%;
   border:1px solid #fff;
+  height:50px;
+  width:50px;
+  line-height: 50px;
+  margin:0 10px;
+
 }
 /* seziona star generica */
 .md-star{
