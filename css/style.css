@@ -8,18 +8,30 @@ ul{list-style: none;}
 
 a{text-decoration:none;}
 
-.nav{
-
-  height:80px;
-  background-color: #293D51;
-}
-
 .jambotron{
   padding: 20px 0;
   background-color: #19b391;
   text-align: center;
     color:#fff;
     text-transform: uppercase;
+}
+.navbar {
+  background-color:#293d51;
+  border:none;
+  border-radius:0px;
+  margin-bottom:0;
+  text-transform: uppercase;
+}
+.navbar .col-xs-12 {
+  padding:0px;
+}
+.navbar-default .navbar-brand{
+  color:#fff;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color:#fff;}
+.navbar-default .navbar-nav > li > a{
+  color:#fff;
 }
 
 .contact-me{
