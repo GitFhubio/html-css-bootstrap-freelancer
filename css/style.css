@@ -54,10 +54,13 @@ a{text-decoration:none;}
 /* .jambotron */
 
 .jambotron{
-  padding: 20px 0;
   background-color: #19b391;
   color:#fff;
   text-transform: uppercase;
+}
+
+ .my-jambotron{
+  padding:20px 0;
 }
 
 .jambotron img{
@@ -66,7 +69,7 @@ a{text-decoration:none;}
 }
 
 /* portfolio */
-.portfolio{
+.portfolio h2{
   padding-top: 20px;}
   .portfolio .star::before,.portfolio .star::after,
   .contact-me .star::before,.contact-me .star::after{
@@ -82,29 +85,32 @@ a{text-decoration:none;}
 .about{
   color:#fff;
   background-color: #19b391;
+  padding-top:30px;
+  padding-bottom:20px;
 }
 
 
 .about p{
   text-align: left;
-  padding:0 50px;
+  padding:0 30px;
 }
 
 .bottone .btn{
   background-color: transparent;
   color:#fff;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top:10px;
 }
 
 /* .contact-me */
-
+.contact-me{
+  padding-top:20px;
+}
 .contact-me h2{
   text-align: center;
 }
 /* form */
 
-.my-form{padding:20px 50px;}
+.my-form{padding:0px 50px;}
 .my-form .form-group{
   border-bottom: 2px solid #ccc;
   padding: 10px 0;
@@ -126,6 +132,7 @@ margin-bottom:10px;}
 
 .my-form button { background-color: #00c59E;
     margin-top: 10px;
+    margin-bottom: 20px;
     color:#fff;
     border-color: #00c59E;
 }
@@ -173,6 +180,11 @@ margin:20px 0;
     text-align: left;
     padding:0;
   }
+
+  .about{
+    padding-bottom:40px;
+  }
+
   .my-form{padding:20px 0;}
 
 @media (min-width: 992px) {
