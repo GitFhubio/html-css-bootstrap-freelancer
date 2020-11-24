@@ -1,0 +1,178 @@
+/* regole generali di stile */
+.big-text{font-size:70px;}
+.med-text{font-size:40px;}
+.normal-text{font-size:20px;}
+.small-text{font-size:14px;}
+ul{list-style: none;}
+a{text-decoration:none;}
+
+/* navbar */
+
+.navbar {
+  background-color:#293d51;
+  border:none;
+  border-radius:0px;
+  margin-bottom:0;
+  text-transform: uppercase;
+}
+.navbar .col-xs-12 {
+  padding:0px;
+}
+.navbar-default .navbar-brand{
+  color:#fff;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color:#fff;}
+.navbar-default .navbar-nav > li > a{
+  color:#fff;
+}
+/* seziona star generica */
+.md-star{
+  min-width:100%;
+  max-width:400px;
+  margin:10px auto;
+  font-size: 25px;
+}
+
+.star::before,.star::after{
+  content:"";
+  display:inline-block;
+  width:15%;
+  height:4px;
+  background-color:#fff;
+  border-radius:2px;
+  line-height: 4px;
+  vertical-align:middle;
+}
+
+/* .jambotron */
+
+.jambotron{
+  padding: 20px 0;
+  background-color: #19b391;
+  text-align: center;
+  color:#fff;
+  text-transform: uppercase;
+}
+
+.jambotron img{
+  width:100px;
+
+}
+
+/* portfolio */
+.portfolio{text-align:center;
+  padding-top: 20px;}
+  .portfolio .star::before,.portfolio .star::after,
+  .contact-me .star::before,.contact-me .star::after{
+    background-color:#000;}
+    .contact-me .row:nth-child(2){text-align: center;}
+/* immagini */
+
+.immagini img{
+  width:100%;
+  margin:10px 0;
+}
+
+/* about */
+
+.about{
+  padding:20px 50px;
+  background-color: #19b391;
+  text-align: center;
+  color:#fff;
+}
+.about p{
+  text-align: left;
+}
+
+.bottone .btn{
+  background-color: transparent;
+  color:#fff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* .contact-me */
+
+.contact-me{
+  padding:20px 50px;
+}
+
+.contact-me h2{
+  text-align: center;
+}
+/* form */
+.form-control{
+  height:27px;
+}
+#my-form textarea,#my-form input{border-top:0;
+  border-left:none;
+  border-right:none;
+  box-shadow:none;
+  border-radius:0px;}
+
+  #my-form button { background-color: #00c59E;
+    margin-top: 10px;
+    color:#fff;
+    border-color: #00c59E;
+  }
+  label {
+    margin-bottom:0px;
+    margin-top:20px;
+    font-size:16px;
+    font-weight: 400;
+  }
+
+/* footer */
+.footer-up{
+  background-color: #33566E;
+}
+.footer-down{
+  background-color: #293d51;
+}
+.footer-up,.footer-down {
+  color:#fff;
+  text-align: center;
+}
+
+.footer-up .row, .footer-down .row{
+margin:20px 0;
+}
+
+.footer-up .iconasocial{
+  display:inline-block;
+  background-color: transparent;
+  border-radius: 50%;
+  border:1px solid #fff;
+  height:40px;
+  width:40px;
+  line-height: 40px;
+  margin:5px 5px;
+
+}
+/* regola comune di transform uppercase */
+.portfolio h2,.about h2, .contact-me h2, .footer-up h4 {text-transform:uppercase;}
+
+/* colore span verde start-bootstrap */
+.start-bootstrap{
+  color:#00b697;
+}
+/* media queries per padding e font size */
+@media (min-width: 768px) {
+.about .col-sm-6{
+  padding:0 10px;
+}
+.jambotron h3{
+  font-size: 17px;
+}
+}
+
+@media (min-width: 992px) {
+
+.jambotron h3{
+     font-size: 22px;
+   }
+
+
+  }
