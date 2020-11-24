@@ -80,12 +80,14 @@ a{text-decoration:none;}
 /* about */
 
 .about{
-  padding:20px 50px;
   color:#fff;
   background-color: #19b391;
 }
+
+
 .about p{
   text-align: left;
+  padding:0 50px;
 }
 
 .bottone .btn{
@@ -97,15 +99,12 @@ a{text-decoration:none;}
 
 /* .contact-me */
 
- .contact-me{
-  padding:20px 50px;
-}
-
 .contact-me h2{
   text-align: center;
 }
 /* form */
 
+.my-form{padding:20px 50px;}
 .my-form .form-group{
   border-bottom: 2px solid #ccc;
   padding: 10px 0;
@@ -170,8 +169,12 @@ margin:20px 0;
 }
 /* media queries per padding e font size */
 @media (min-width: 768px) {
-  .about p{ padding:0;}
-}
+  .about p{
+    text-align: left;
+    padding:0;
+  }
+  .my-form{padding:20px 0;}
+
 @media (min-width: 992px) {
 }
 

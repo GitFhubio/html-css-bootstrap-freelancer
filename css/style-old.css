@@ -1,30 +1,22 @@
-
+/* regole generali di stile */
 .big-text{font-size:70px;}
 .med-text{font-size:40px;}
 .normal-text{font-size:20px;}
 .small-text{font-size:14px;}
-
 ul{list-style: none;}
-
 a{text-decoration:none;}
 
-.jambotron{
-  padding: 20px 0;
-  background-color: #19b391;
-  text-align: center;
-    color:#fff;
-    text-transform: uppercase;
-}
-.navbar {
+/* navbar */
+.my-navbar  {
+  padding:10px 0;
   background-color:#293d51;
   border:none;
   border-radius:0px;
   margin-bottom:0;
+  font-weight: 500;
   text-transform: uppercase;
 }
-.navbar .col-xs-12 {
-  padding:0px;
-}
+
 .navbar-default .navbar-brand{
   color:#fff;
 }
@@ -33,35 +25,113 @@ a{text-decoration:none;}
 .navbar-default .navbar-nav > li > a{
   color:#fff;
 }
-
-.contact-me{
-  padding:20px 50px;
+.my-navbar .navbar-brand:hover,.my-navbar .navbar-nav>li>a:hover {
+  color:#1ABC9C;
 }
+.my-navbar .navbar-toggle .icon-bar {
+  background-color:#fff;}
+.my-navbar .navbar-toggle:hover {
+    background-color:#1ABC9C;}
+/* seziona star generica */
+.md-star{
+  min-width:100%;
+  max-width:400px;
+  margin:10px auto;
+  font-size: 25px;
+}
+.portfolio .md-star, .contact-me .md-star{color:#2c3e50;}
+.star::before,.star::after{
+  content:"";
+  display:inline-block;
+  width:15%;
+  height:4px;
+  background-color:#fff;
+  border-radius:2px;
+  line-height: 4px;
+  vertical-align:middle;
+}
+
+/* .jambotron */
+
+.jambotron{
+  padding: 20px 0;
+  background-color: #19b391;
+  color:#fff;
+  text-transform: uppercase;
+}
+
+.jambotron img{
+  width:120px;
+
+}
+
+/* portfolio */
+.portfolio{
+  padding-top: 20px;}
+  .portfolio .star::before,.portfolio .star::after,
+  .contact-me .star::before,.contact-me .star::after{
+    background-color:#2c3e50;}
+/* immagini */
+
+.immagini img{
+  margin:10px 0;
+}
+
+/* about */
 
 .about{
   padding:20px 50px;
-  background-color: #19b391;
-  text-align: center;
   color:#fff;
+  background-color: #19b391;
 }
 .about p{
   text-align: left;
 }
 
-.jambotron img{
-  width:100px;
-
+.bottone .btn{
+  background-color: transparent;
+  color:#fff;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
-.immagini img{
-  width:100%;
-  margin:10px 0;
+/* .contact-me */
+
+ .contact-me{
+  padding:20px 50px;
 }
 
 .contact-me h2{
   text-align: center;
 }
+/* form */
 
+.my-form .form-group{
+  border-bottom: 2px solid #ccc;
+  padding: 10px 0;
+
+}
+.my-form textarea,.my-form input{border: 0;
+border-radius: 0;
+box-shadow: none;
+padding-left: 0;
+margin-bottom:10px;}
+
+.my-form ::placeholder,.my-form input, .my-form textarea{
+  color: #2c3e50;
+  font-size: 25px;
+}
+
+
+/* border-bottom: 1px solid #ccc; */
+
+.my-form button { background-color: #00c59E;
+    margin-top: 10px;
+    color:#fff;
+    border-color: #00c59E;
+}
+
+/* footer */
 .footer-up{
   background-color: #33566E;
 }
@@ -82,89 +152,29 @@ margin:20px 0;
   background-color: transparent;
   border-radius: 50%;
   border:1px solid #fff;
-  height:40px;
-  width:40px;
-  line-height: 40px;
-  margin:5px 5px;
+  height:55px;
+  width:55px;
+  line-height: 55px;
+  margin:0 3px;
 
 }
-/* seziona star generica */
-.md-star{
-  min-width:100%;
-  max-width:400px;
-  margin:10px auto;
-  font-size: 25px;
+.iconasocial i{
+  font-size:20px;
 }
+/* regola comune di transform uppercase */
+.portfolio h2,.about h2, .contact-me h2, .footer-up h3 {text-transform:uppercase;}
 
-.star::before,.star::after{
-  content:"";
-  display:inline-block;
-  width:15%;
-  height:4px;
-  background-color:#fff;
-  border-radius:2px;
-  line-height: 4px;
-  vertical-align:middle;
-  }
-/* fine sezione star */
-.portfolio{text-align:center;
-padding-top: 20px;}
-.portfolio .star::before,.portfolio .star::after,
-.contact-me .star::before,.contact-me .star::after{
-  background-color:#000;}
-.contact-me .row:nth-child(2){text-align: center;}
-
-.form-control{
-  height:27px;
-}
-#my-form textarea,#my-form input{border-top:0;
-border-left:none;
-border-right:none;
-box-shadow:none;
-border-radius:0px;}
-
-#my-form button { background-color: #00c59E;
-  margin-top: 10px;
-  color:#fff;
-  border-color: #00c59E;
-}
-
-.bottone .btn{
-  background-color: transparent;
-  color:#fff;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-.portfolio h2,.about h2, .contact-me h2, .footer-up h4
-{text-transform:uppercase;}
-
+/* colore span verde start-bootstrap */
 .start-bootstrap{
   color:#00b697;
 }
-label {
-  margin-bottom:0px;
-  margin-top:20px;
-  font-size:16px;
-  font-weight: 400;
-}
-
+/* media queries per padding e font size */
 @media (min-width: 768px) {
-.about .col-sm-6{
-  padding:0 10px;
+  .about p{ padding:0;}
+}
+@media (min-width: 992px) {
 }
 
-.jambotron h3{
-  font-size: 17px;
-}
-
-}
-
- @media (min-width: 992px) {
-
-   .jambotron h3{
-     font-size: 22px;
-   }
 
 
   }
