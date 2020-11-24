@@ -13,6 +13,7 @@ a{text-decoration:none;}
   border:none;
   border-radius:0px;
   margin-bottom:0;
+  font-weight: 500;
   text-transform: uppercase;
 }
 .navbar .col-xs-12 {
